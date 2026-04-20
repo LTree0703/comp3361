@@ -93,12 +93,12 @@ We have also tuned the hyperparameters for each model and observed their perform
 | Model | Batch Size | Embedding Size | Learning Rate | Epochs | Dropout Rate | Test F1-score |
 |:------|:----------:|:--------------:|:-------------:|:------:|:------------:|:-------------:|
 | BiLSTM      | 32 | 64 | $10^{-3}$ | 5  | 0.3 | 0.7105 |
-| BiLSTM      | 32 | 64 | $10^{-2}$ | 5  | 0.1 | **0.7433** |
+| BiLSTM      | 32 | 64 | $10^{-2}$ | 5  | 0.1 | **0.7382** |
 | Transformer | 32 | 64 | $10^{-3}$ | 10 | 0.5 | 0.1004 |
 | Transformer | 32 | 64 | $10^{-3}$ | 10 | 0.3 | 0.4045 |
 | Transformer | 32 | 64 | $10^{-3}$ | 5  | 0.1 | 0.5139 |
-| Transformer | 32 | 64 | $10^{-3}$ | 5  | 0.0 | **0.5483** |
-| DistilBERT  | 8  | -  | $10^{-5}$ | 4  | - | **0.8639** | 
+| Transformer | 32 | 64 | $10^{-3}$ | 5  | 0.0 | **0.5336** |
+| DistilBERT  | 8  | -  | $10^{-5}$ | 4  | - | **0.8686** | 
 | DistilBERT  | 4  | -  | $10^{-5}$ | 3  | - | 0.7856 | 
 
 
